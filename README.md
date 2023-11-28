@@ -1,6 +1,6 @@
 # Desafio_EscadaRolante
 
-#Integrantes do Grupo:
+## Integrantes do Grupo:
 Rodrigo Mironiuc Fernandes - 32274823;
 Mauricio Gabriel Gutierrez Garcia - 32266601;
 
@@ -17,7 +17,7 @@ Mauricio Gabriel Gutierrez Garcia - 32266601;
 `./(novoArquivoExecutavel)`
 
 
-##Explicação:
+## Explicação:
 Para resolver o problema proposto nosso grupo primeiro desenvolveu a seguinte estratégia:
 Primeiro, criamos uma estrutura `Passageiro` que serve para armazenar as informações de cada passageiro, sendo o tempo de chegada e a direção que deseja ir na escada. 
 Em seguida, implementamos o método entrada para extrair a quantidade de passageiros e suas especificações do arquivo de entrada (`entrada.txt`).
