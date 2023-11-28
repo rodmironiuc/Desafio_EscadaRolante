@@ -11,10 +11,10 @@ Mauricio Gabriel Gutierrez Garcia - 32266601;
 2) Clonar o repositório :`https://github.com/rodmironiuc/Desafio_EscadaRolante`
 
 3) Compilar o arquivo : 
-`gcc escadaRolante.c -o (novoArquivoExecutavel) `
+`gcc escadaRolante.c -o escadaRolanteExe `
 
-4) Executar os arquivo criados :
-`./(novoArquivoExecutavel)`
+4) Executar os arquivo criados (esse formato possibilita com que o professor escolha o teste a ser realizado na hora de rodar):
+`./escadaRolanteExe <nomeArquivoEntrada>`
 
 
 ## Explicação:
@@ -25,3 +25,5 @@ Por fim, criamos o método principal do programa, o método escadaRolante, que r
 Caso o contrário, o passageiro é colocado em uma fila de passageiros pendentes. Agora, se houver passageiros pendentes e a escada rolante não tiver processando mais passageiros do lado atual, ela muda a direção e começa a processar os passageiros pendentes, repetindo o mesmo processo.
 Quando não houver mais nenhum passageiro a ser processado, então terminamos a lista e a função retorna o momentoFinal, que foi todo o tempo necessário para resolver o problema(que foi sendo atualizado dentro das iterações).
 O grupo acredita que foi uma boa maneira de resolver o problema, mas poderia talvez ter sido feito de maneira mais eficiente, caso tivessemos utilizado threads para processar mais de um passageiro ao mesmo tempo. Porém, não entendemos como isso poderia ser aplicado dentro desse contexto da escada rolante, que teoricamente lida com um passageiro por vez. 
+
+## Alguns testes selecionados:
