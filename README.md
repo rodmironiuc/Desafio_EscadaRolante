@@ -5,7 +5,7 @@ Rodrigo Mironiuc Fernandes - 32274823;
 Mauricio Gabriel Gutierrez Garcia - 32266601;
 
 
-## Instruções
+## Instruções:
 1) Instalar git e gcc
 
 2) Clonar o repositório :`https://github.com/rodmironiuc/Desafio_EscadaRolante`
