@@ -11,7 +11,7 @@ Mauricio Gabriel Gutierrez Garcia - 32266601;
 2) Clonar o repositório :`https://github.com/rodmironiuc/Desafio_EscadaRolante`
 
 3) Compilar o arquivo : 
-`gcc -pthread escadaRolante.c -o (novoArquivoExecutavel) `
+`gcc escadaRolante.c -o (novoArquivoExecutavel) `
 
 4) Executar os arquivo criados :
 `./(novoArquivoExecutavel)`
