@@ -30,11 +30,15 @@ O grupo acredita que foi uma boa maneira de resolver o problema, mas poderia tal
 --> Funciona tanto para arquivos pequenos, quanto para arquivos grandes(+1000 linhas)
 
 Caso de teste input E_2:
-![image](https://github.com/rodmironiuc/Desafio_EscadaRolante/assets/100619939/a4a0f655-7600-4155-b606-9dedc9a42073)
+
+![image](https://github.com/rodmironiuc/Desafio_EscadaRolante/assets/100619939/efa07ec5-812d-469f-baf2-11d8a3872730)
+
+
 
 
 Caso de teste input E_46:
-![image](https://github.com/rodmironiuc/Desafio_EscadaRolante/assets/100619939/a1ecdfb9-f7c3-49dc-abd4-f17a62ab6965)
+
+![image](https://github.com/rodmironiuc/Desafio_EscadaRolante/assets/100619939/d719a521-3bcc-45d5-bd75-93e4a355fd9d)
 
 
 
