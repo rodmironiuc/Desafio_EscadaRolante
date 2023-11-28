@@ -76,13 +76,20 @@ int escadaRolante(Passageiro* passageiros, int qtd) {
   momentoFinal = momento;
     return momentoFinal;
   }
-int main() {
+
+int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        printf("Uso: ./programa <arquivo_de_entrada>\n");
+        return 1;
+    }
+
     Passageiro passageiros[10000];
     int qtd;
 
-    entrada("./entrada.txt", passageiros, &qtd);
+    entrada(argv[1], passageiros, &qtd);
     int momentoFinal = escadaRolante(passageiros, qtd);
 
     printf("%d\n", momentoFinal);
     return 0;
 }
+
