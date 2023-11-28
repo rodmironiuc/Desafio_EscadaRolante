@@ -18,7 +18,7 @@ Mauricio Gabriel Gutierrez Garcia - 32266601;
 
 
 ## Explicação:
-Para resolver o problema proposto nosso grupo primeiro desenvolveu a seguinte estratégia:
+Para resolver o problema proposto nosso grupo desenvolveu a seguinte estratégia:
 Primeiro, criamos uma estrutura `Passageiro` que serve para armazenar as informações de cada passageiro, sendo o tempo de chegada e a direção que deseja ir na escada. 
 Em seguida, implementamos o método entrada para extrair a quantidade de passageiros e suas especificações do arquivo de entrada (`entrada.txt`).
 Por fim, criamos o método principal do programa, o método escada, que recebe como parametro um vetor de Passageiros e a quantidade total, e realiza a simulação da escada da forma que queremos. Funciona da seguinte maneira: processamos os passageiros na ordem que chegam, sendo que se um passageiro chega e a escada estiver indo na mesma direção, o passageiro será incluído na mesma hora.
