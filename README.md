@@ -26,4 +26,14 @@ Caso o contrário, o passageiro é colocado em uma fila de passageiros pendentes
 Quando não houver mais nenhum passageiro a ser processado, então terminamos a lista e a função retorna o momentoFinal, que foi todo o tempo necessário para resolver o problema(que foi sendo atualizado dentro das iterações).
 O grupo acredita que foi uma boa maneira de resolver o problema, mas poderia talvez ter sido feito de maneira mais eficiente, caso tivessemos utilizado threads para processar mais de um passageiro ao mesmo tempo. Porém, não entendemos como isso poderia ser aplicado dentro desse contexto da escada rolante, que teoricamente lida com um passageiro por vez. 
 
-## Alguns testes selecionados:
+## PrintScreen do terminal (exemplos de como executar e de saída):
+--> Funciona tanto para arquivos pequenos, quanto para arquivos grandes(+1000 linhas)
+
+Caso de teste input E_2:
+![image](https://github.com/rodmironiuc/Desafio_EscadaRolante/assets/100619939/29b8cf1b-b77c-4b5d-992e-494c0c21cc97)
+
+Caso de teste input E_46:
+![image](https://github.com/rodmironiuc/Desafio_EscadaRolante/assets/100619939/a1ecdfb9-f7c3-49dc-abd4-f17a62ab6965)
+
+
+
